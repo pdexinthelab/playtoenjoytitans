@@ -36,7 +36,8 @@ Plain HTML and CSS, no JavaScript (except one line in 404.html). Every page is a
 
 Mods work exactly like games, in their own section:
 1. Copy `mod-super-video-golf.html` and rename it, starting with `mod-`, for example `mod-new-mod.html`.
-2. Change the same things as for a game, plus What you need (the original game the mod needs). Mod pages leave out
+2. Change the same things as for a game, plus What you need (the original game the mod needs). Mods use the
+   PlayToEnjoy Titans logo as their picture (`images/mod-logo.jpg`), so keep the picture and its alt text as they are. Mod pages leave out
    the "every level of device" line, because a mod needs whatever its original game needs.
 3. In `index.html` copy one `<li class="game-card">` block in the Mods list (under the Mods heading) and change it.
 4. In `mods.html` copy one `<li>` block and change it.
