@@ -9,6 +9,8 @@ Plain HTML and CSS, no JavaScript (except one line in 404.html). Every page is a
 | index.html | Home: welcome, logo, game gallery |
 | games.html | Games: every game as a text link with one line each |
 | boujee-island.html and the other game files | One page per game |
+| mods.html | Mods: every mod as a text link with one line each |
+| mod-super-video-golf.html and other mod- files | One page per mod |
 | news.html | News, newest first |
 | donate.html | Donate (PayPal link) |
 | contact.html | Contact (email) |
@@ -29,6 +31,15 @@ Plain HTML and CSS, no JavaScript (except one line in 404.html). Every page is a
 4. In `index.html` copy one `<li class="game-card">` block and change it. Its alt text must be the same as on the game page.
 5. In `games.html` copy one `<li>` block and change it.
 6. Commit and push: the site updates within a minute or two.
+
+## Add a new mod
+
+Mods work exactly like games, in their own section:
+1. Copy `mod-super-video-golf.html` and rename it, starting with `mod-`, for example `mod-new-mod.html`.
+2. Change the same things as for a game, plus What you need (the original game the mod needs). Mod pages leave out
+   the "every level of device" line, because a mod needs whatever its original game needs.
+3. In `index.html` copy one `<li class="game-card">` block in the Mods list (under the Mods heading) and change it.
+4. In `mods.html` copy one `<li>` block and change it.
 
 ## Add news
 
