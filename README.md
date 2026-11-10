@@ -12,6 +12,8 @@ Plain HTML and CSS, no JavaScript (except one line in 404.html). Every page is a
 | mods.html | Mods: every mod as a text link with one line each |
 | mod-super-video-golf.html and other mod- files | One page per mod |
 | news.html | News, newest first |
+| help.html | Help: answers to common questions |
+| sitemap.xml, robots.txt | For search engines: add a line to sitemap.xml for each new page |
 | donate.html | Donate (PayPal link) |
 | contact.html | Contact (email) |
 | accessibility.html | Accessibility statement |
@@ -23,9 +25,10 @@ Plain HTML and CSS, no JavaScript (except one line in 404.html). Every page is a
 ## Add a new game
 
 1. Copy a game page, for example `footy-racer.html`, and rename it, for example `new-game.html` (lower case, hyphens).
-2. In the new file change: the `<title>`, the description, the `<h1>`, Available now or Coming soon, the picture and its
+2. In the new file change: the `<title>`, the description, the sharing lines (`og:` and `canonical`, near the top), the `<h1>`, Available now or Coming soon, the picture and its
    alt text, the synopsis, Last updated, the download links (Dropbox links ending in `dl=1`) and System requirements.
    Leave out the Full Game or Trial heading and its links if the game does not have one yet.
+   Also change the Controls table, the Accessibility features list and the game's name in the Send feedback link.
    For a Coming soon game copy `footy-27.html` instead (no downloads).
 3. Put the game's picture in `images/` (16 by 9 shape, about 1280 by 720, saved as .jpg).
 4. In `index.html` copy one `<li class="game-card">` block and change it. Its alt text must be the same as on the game page.
