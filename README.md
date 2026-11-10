@@ -35,6 +35,13 @@ Plain HTML and CSS, no JavaScript (except one line in 404.html). Every page is a
 5. In `games.html` copy one `<li>` block and change it.
 6. Commit and push: the site updates within a minute or two.
 
+## Download counting (GoatCounter)
+
+Every page loads the GoatCounter counter (one line near the top, `gc.zgo.at/count.js`), which counts visits.
+Every download link has `data-goatcounter-click="download/<game>/<full|trial|mod>/<platform>"`; keep it when you
+add or change a link, so the click is counted. See the numbers at https://playtoenjoytitans.goatcounter.com
+(or ask Claude Code for a summary).
+
 ## Add a new mod
 
 Mods work exactly like games, in their own section:
