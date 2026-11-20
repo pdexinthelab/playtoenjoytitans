@@ -11,6 +11,7 @@ Plain HTML and CSS, no JavaScript (except one line in 404.html). Every page is a
 | boujee-island.html and the other game files | One page per game |
 | mods.html | Mods: every mod as a text link with one line each |
 | mod-super-video-golf.html and other mod- files | One page per mod |
+| apps.html | Apps: apps shared by their makers (experimental, at the player's own risk) and our own apps marked "By PlayToEnjoy Titans" |
 | news.html | News, newest first |
 | help.html | Help: answers to common questions |
 | sitemap.xml, robots.txt | For search engines: add a line to sitemap.xml for each new page |
