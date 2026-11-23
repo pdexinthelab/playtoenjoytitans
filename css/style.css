@@ -231,6 +231,19 @@ h3 { font-size: 1.3rem; margin: 1.5rem 0 .5rem; color: var(--gold); }
   border-radius: 12px;
   box-shadow: var(--shadow);
 }
+video.trailer {
+  display: block;
+  width: 100%;
+  max-width: 64rem;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.transcript { max-width: 46rem; margin: .5rem 0 2rem; }
+.transcript summary { cursor: pointer; font-weight: 700; padding: .4rem 0; }
+.transcript p { margin: .4rem 0; }
 .device-note {
   max-width: 46rem;
   margin: 1.5rem 0;
