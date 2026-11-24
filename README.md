@@ -12,6 +12,7 @@ Plain HTML and CSS, no JavaScript (except one line in 404.html). Every page is a
 | mods.html | Mods: every mod as a text link with one line each |
 | mod-super-video-golf.html and other mod- files | One page per mod |
 | apps.html | Apps: apps shared by their makers (experimental, at the player's own risk) and our own apps marked "By PlayToEnjoy Titans" |
+| app-face-center.html and other app- files | One page per app, built like a mod page (the maker named, with their own licence note) |
 | news.html | News, newest first |
 | help.html | Help: answers to common questions |
 | sitemap.xml, robots.txt | For search engines: add a line to sitemap.xml for each new page |
